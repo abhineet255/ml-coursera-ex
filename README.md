@@ -28,7 +28,7 @@ This problem is solved by both Gradient Descent and Normal Equation algorithms.
 
 
 ## Logistic Regression
-Predict whether an application will get admission into university based on the score on two tests.
+Predict whether an applicant will get admission into university based on the score on two tests.
 
 Training Set is historical data of admission based on the score of the two tests.
 
@@ -39,5 +39,17 @@ Logistic Regression model is trained using Gradient Descent first, then using ad
 [Output](output/log_reg.md)
 
 
+## Regularized Logistic Regression with Order-6 Feature Mapping
+Predict whether a chip will pass QA based on the score on two tests.
+
+Training Set is historical data of QA based on the score of the two tests. The data is complicated so cannot be modeled using a linear model. An order-6 Logistic Regression model is trained to fit the data.
+
+[Code](src/log_reg_regularized.m)
+
+[Output](output/log_reg_regularized.md)
+
+
 ## Disclaimer
 P.S.: I do not claim credit for creating the problems and their solutions. These are the exercises provided as part of the Machine Learn Course. I have compiled them in a consumable form for my own learning.
+
+P.P.S.: I could have modularized the code more by writing functions in their dedicated files and then re-using them. But I prefer to see them as one file for faster reference while learning.
