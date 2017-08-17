@@ -18,3 +18,13 @@ Training Set is the size of house (in square feet) and the number of bedrooms, a
 
 This problem is solved by both Gradient Descent and Normal Equation algorithms.
 
+
+## Logistic Regression
+Predict whether an application will get admission into university based on the score on two tests.
+
+Training Set is historical data of admission based on the score of the two tests.
+
+Logistic Regression model is trained using Gradient Descent first, then using advanced methods. Octave's fminunc() method is used to optimally arrive at the theta values which minimize the cost function.
+
+
+P.S.: I do not claim credit for creating the problems and their solutions. These are the exercises provided as part of the Machine Learn Course. I have compiled them in a consumable form for my own learning.
