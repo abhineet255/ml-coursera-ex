@@ -61,6 +61,18 @@ We will use a 10-class logistic regression classifier to predict the digit.
 [Output](output/log_reg_multi.md)
 
 
+## Neural Network Classifier (without Parameter Optimization)
+Given images of hand-written digits, recognize the digit.
+
+Training Set is a 20 pixel by 20 pixel grayscale image of the digit, so 400 pixel values are provided as floating point values representing the grayscale intensity at that location.
+
+We used logistic regression classifier in the previous code example. But logistic regression classifier cannot train very complex models. In this implementation, we will use a Neural Network on the same training set and see that the accuracy on the training set is much better.
+
+[Code](src/neural_net_pred.m)
+
+[Output](output/neural_net_pred.md)
+
+
 ## Disclaimer
 P.S.: I do not claim credit for creating the problems and their solutions. These are the exercises provided as part of the Machine Learn Course. I have compiled them in a consumable form for my own learning.
 

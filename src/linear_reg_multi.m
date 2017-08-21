@@ -19,7 +19,7 @@ function main()
     fprintf('Loading data ...\n');
 
     %% Load Data
-    data = load('linear_reg_multi_d.txt');
+    data = load('handwritten_digits.txt');
     X = data(:, 1:2);
     y = data(:, 3);
     m = length(y);

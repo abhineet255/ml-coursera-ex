@@ -24,7 +24,7 @@ function main()
     fprintf('Loading and Visualizing Data ...\n')
 
     % The '.mat' file contains the matrices X and y, so we dont need to explicitly create them.
-    load('log_reg_multi.mat');
+    load('handwritten_digits.mat');
     m = size(X, 1);
 
     % Randomly select 100 data points to display
@@ -121,6 +121,13 @@ function [h, display_array] = displayData(X, example_width)
     axis image off
 
     drawnow;
+end
+
+function g = sigmoid(z)
+    %SIGMOID Compute sigmoid functoon
+    %   J = SIGMOID(z) computes the sigmoid of z.
+
+    g = 1.0 ./ (1.0 + exp(-z));
 end
 
 function [J, grad] = lrCostFunction(theta, X, y, lambda)

@@ -4,11 +4,15 @@ Loading and Visualizing Data ...
 
 ![log_reg_multi](img/log_reg_multi.png)
 
+
+
 Testing lrCostFunction() with regularization
 
 Cost: 2.534819
 
 Expected cost: 2.534819
+
+
 
 Gradients:
 
@@ -20,6 +24,8 @@ Gradients:
 
  1.398003 
 
+
+
 Expected gradients:
 
  0.146561
@@ -29,6 +35,7 @@ Expected gradients:
  0.724722
 
  1.398003
+
 
 
 
@@ -53,6 +60,8 @@ Iteration    50 | Cost: 8.588253e-02
 Iteration    50 | Cost: 7.976315e-02
 
 Iteration    50 | Cost: 9.989660e-03
+
+
 
 
 
