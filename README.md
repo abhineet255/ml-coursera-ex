@@ -27,7 +27,7 @@ This problem is solved by both Gradient Descent and Normal Equation algorithms.
 [Output](output/linear_reg_multi.md)
 
 
-## Logistic Regression
+## Logistic Regression Classifier
 Predict whether an applicant will get admission into university based on the score on two tests.
 
 Training Set is historical data of admission based on the score of the two tests.
@@ -47,6 +47,18 @@ Training Set is historical data of QA based on the score of the two tests. The d
 [Code](src/log_reg_regularized.m)
 
 [Output](output/log_reg_regularized.md)
+
+
+## Multi-class Logistic Regression Classifier
+Given images of hand-written digits, recognize the digit.
+
+Training Set is a 20 pixel by 20 pixel grayscale image of the digit, so 400 pixel values are provided as floating point values representing the grayscale intensity at that location.
+
+We will use a 10-class logistic regression classifier to predict the digit.
+
+[Code](src/log_reg_multi.m)
+
+[Output](output/log_reg_multi.md)
 
 
 ## Disclaimer
